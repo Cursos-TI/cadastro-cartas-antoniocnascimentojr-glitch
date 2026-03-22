@@ -71,6 +71,10 @@ int main() {
   scanf("%d", &NumPontosTuristicos2);
   printf("\n\n");
 
+  densidadepopulacional = Populacao / Area;
+  densidadepopulacional2 = Populacao2 / Area2;
+  pibpercapita = PIB / Populacao;
+  pibpercapita2 = PIB2 / Populacao2;
 
   // Área para exibição dos dados da cidade
   printf("Carta 1: \n");
