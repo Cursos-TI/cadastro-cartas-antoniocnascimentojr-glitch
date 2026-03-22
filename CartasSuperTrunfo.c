@@ -20,10 +20,10 @@ int main() {
   float PIB2;
   int NumPontosTuristicos;
   int NumPontosTuristicos2;
-  float densidadepopulacional = Populacao / Area;
-  float densidadepopulacional2 = Populacao2 / Area2;
-  float pibpercapita = PIB / Populacao;
-  float pibpercapita2 = PIB2 / Populacao2;
+  float densidadepopulacional;
+  float densidadepopulacional2;
+  float pibpercapita;
+  float pibpercapita2;
 
   // Área para entrada de dados
   printf("Digite o estado: ");
